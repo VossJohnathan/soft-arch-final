@@ -1,0 +1,32 @@
+/*
+Project by: Johnathan Voss
+Assignment: Software Architecture Final
+
+Info:
+For the final, I wanted to simulate a burger shop / Food court as my main project.
+The final dictates that we include four patters; Strategy, Factory, Singleton, our choice.
+Due to needing these four strategies included, I figured that I should divide the project
+into four separate areas, each focusing on one of those strategies specifically.
+
+Area 1 - The BURG
+Area one is taking advantage of the Decorator pattern, this is the extra pattern that I
+chose to include in the project.
+
+Area 2 - The Fries
+Area two will be taking advantage of the Strategy pattern.
+
+Area 3 - The Drink
+Area three will be taking advantage of the Factory pattern.
+
+Area 4 - The Dessert
+Area four will be taking advantage of the Singleton pattern.
+
+In the end, I hope this project meets all the requirements, as it was interesting to work
+like this and purposefully code to meet these patterns. One area that I think I could have
+improved or done differently was instead of splitting them all up into seperate categories,
+I might have been able to work on all the patterns in one main area instead. Either way, it's
+a learning process, so I hope this works well.
+
+Thanks!
+-Johnathan
+*/
