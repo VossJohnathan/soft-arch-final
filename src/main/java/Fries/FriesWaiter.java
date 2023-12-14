@@ -30,7 +30,7 @@ public class FriesWaiter {
                     break;
                 case 4:
                     System.out.println("All done! Here are your fries!");
-                    System.exit(0);
+
             }
 
             for (int t = 1; t <= 1; t++) {
@@ -48,7 +48,7 @@ public class FriesWaiter {
         System.out.println("2. Double the amount!! ");
         System.out.println("3. No more fries please. ");
         System.out.println("4. Exit ");
-        System.out.println("\n>> ");
+        System.out.println(">> ");
 
         return Integer.parseInt(FryKeyboard.nextLine());
     }

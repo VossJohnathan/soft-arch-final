@@ -2,6 +2,7 @@ package org.example;
 
 import Burger.Waiter;
 import Fries.FriesWaiter;
+import Drinks.DrinkWaiter;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,12 @@ public class Main {
         System.out.println(" ");
 
         FriesWaiter.runFryStrategy();
+
+        //Spacer just in case.
+        System.out.println(" ");
+
+        DrinkWaiter.DrinkMachine();
+
         /*
         3- Burger Shop <---- This one seems good.
         Burger Shop has the Decorator Pattern
