@@ -3,6 +3,7 @@ package org.example;
 import Burger.Waiter;
 import Fries.FriesWaiter;
 import Drinks.DrinkWaiter;
+import Dessert.DessertWaiter;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +23,17 @@ public class Main {
         System.out.println(" ");
 
         DrinkWaiter.DrinkMachine();
+
+        //Spacer just in case.
+        System.out.println(" ");
+
+        DessertWaiter.dessertOrder();
+
+        System.out.println(" ");
+
+        System.out.println("Thank you for playing! We hope you enjoy the meal! ");
+        System.out.println("Make sure to leave a review of our food court! ");
+
 
         /*
         3- Burger Shop <---- This one seems good.
